@@ -412,6 +412,8 @@
 				lint: (Math.random(100) * 1000).toFixed(0),
 				wend: (Math.random(100) * 1000).toFixed(0),
 			}
+			
+			
 		},
 		mounted: function() {
 			var that = this;
