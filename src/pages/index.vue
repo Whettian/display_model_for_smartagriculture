@@ -541,7 +541,7 @@
 						viewMode: '3D',
 						// 高德地图支持的初始化地图配置
 						// 高德地图初始中心经纬度
-						center: [116.436561, 39.897346],
+						center: [112.938814,28.228209],
 						// 高德地图初始缩放级别
 						zoom: 9,
 						// 是否开启resize
@@ -608,7 +608,7 @@
 
 				var disProvince = new AMap.DistrictLayer.Province({
 					zIndex: 1000,
-					adcode: [110000],
+					adcode: [430000],
 					depth: 2,
 					styles: {
 						'fill': function(properties) {

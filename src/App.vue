@@ -18,11 +18,11 @@
 							<!-- 天气 -->
 							<span class="item"><img style="width: 20px;position: relative;top: 5px;" src="./assets/5.png"></span>
 							<!-- 地区 -->
-							<span class="item">西安</span>
+							<span class="item">长沙</span>
 							<!-- 温度 -->
 							<span class="item">23℃~25℃</span>
 							<!-- 空气质量 -->
-							<span class="item">空气质量 <span style="color:orangered">差</span></span>
+							<span class="item">空气质量 <span style="color:orangered">良</span></span>
 						</div>
 					</div>
 				</el-col>

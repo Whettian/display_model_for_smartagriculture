@@ -150,9 +150,9 @@
 				height: $(window).height(),
 				charts: {},
 				timer: null,
-				wendu:(Math.random(100) * 100).toFixed(0),
-				fensu:(Math.random(100) * 100).toFixed(0),
-				shidu:(Math.random(100) * 100).toFixed(0),
+				wendu:(Math.random(38) * 100).toFixed(0),
+				fensu:(Math.random(38) * 100).toFixed(0),
+				shidu:(Math.random(38) * 100).toFixed(0),
 				areas: ['穆家村', '王李村', '曹家湾', '刘家湾', '潘家集', '赵家村'],
 				categorychart: {},
 				yushuichart: {},
@@ -217,103 +217,103 @@
 				});
 
 				this.timer = setInterval(function() {
-					that.wendu = (Math.random(100) * 100).toFixed(0);
-					that.fensu = (Math.random(100) * 100).toFixed(0);
-					that.shidu = (Math.random(100) * 100).toFixed(0);
+					that.wendu = (Math.random(38) * 100).toFixed(0);
+					that.fensu = (Math.random(38) * 100).toFixed(0);
+					that.shidu = (Math.random(38) * 100).toFixed(0);
 					//------------
 					// 	this.categorychart = this.initcategorychart();
-					that.categorychart.series[0].data = [(Math.random(100) * 100).toFixed(0), (Math.random(
-						100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(
-						100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(
-						100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0)];
+					that.categorychart.series[0].data = [(Math.random(38) * 100).toFixed(0), (Math.random(
+						100) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(
+						100) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(
+						100) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0)];
 					//------------
 					// 	this.yushuichart = this.inityushuichart();
-					that.yushuichart.series[0].data = [(Math.random(100) * 100).toFixed(0), (Math.random(100) *
-							100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100)
-						.toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(
-							0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (
-							Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0)
+					that.yushuichart.series[0].data = [(Math.random(38) * 100).toFixed(0), (Math.random(38) *
+							100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100)
+						.toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(
+							0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (
+							Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0)
 					];
 					//------------
 					// 	this.tempchart = this.inittempchart();
-					that.tempchart.series[0].data = [(Math.random(100) * 100).toFixed(0), (Math.random(100) *
-							100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100)
-						.toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(
-							0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (
-							Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0)
+					that.tempchart.series[0].data = [(Math.random(38) * 100).toFixed(0), (Math.random(38) *
+							100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100)
+						.toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(
+							0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (
+							Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0)
 					];
 					//------------
 					// 	this.shiduchart = this.initshiduchart();
-					that.shiduchart.series[0].data = [(Math.random(100) * 100).toFixed(0), (Math.random(100) *
-							100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100)
-						.toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(
-							0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (
-							Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0)
+					that.shiduchart.series[0].data = [(Math.random(38) * 100).toFixed(0), (Math.random(38) *
+							100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100)
+						.toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(
+							0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (
+							Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0)
 					];
 					//------------
 					// 	this.ligtechart = this.initligtechart();
-					var values = [(Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (
-						Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-						.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-						.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-						.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-						.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0)];
+					var values = [(Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (
+						Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+						.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+						.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+						.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+						.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0)];
 					that.ligtechart.series[0].data = values;
 					that.ligtechart.series[1].data = values;
 					//------------
 					// 	this.linchart = this.initlinchart();
-					that.linchart.series[0].data = [(Math.random(100) * 100).toFixed(0), (Math.random(100) *
-							100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100)
-						.toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(
-							0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (
-							Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0)
+					that.linchart.series[0].data = [(Math.random(38) * 100).toFixed(0), (Math.random(38) *
+							100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100)
+						.toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(
+							0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (
+							Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0)
 					];
 					//------------
 					// 	this.danchart = this.initdanchart();
-					that.danchart.series[0].data = [(Math.random(100) * 100).toFixed(0), (Math.random(100) *
-							100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100)
-						.toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(
-							0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (
-							Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0)
+					that.danchart.series[0].data = [(Math.random(38) * 100).toFixed(0), (Math.random(38) *
+							100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100)
+						.toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(
+							0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (
+							Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0)
 					];
 					//------------
 					// 	this.jiachart = this.initjiachart();
-					that.jiachart.series[0].data = [(Math.random(100) * 100).toFixed(0), (Math.random(100) *
-							100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100)
-						.toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(
-							0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (
-							Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0)
+					that.jiachart.series[0].data = [(Math.random(38) * 100).toFixed(0), (Math.random(38) *
+							100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100)
+						.toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(
+							0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (
+							Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0)
 					];
 					//------------
 					// 	this.phchart = this.initphchart();
-					that.phchart.series[0].data = [(Math.random(100) * 14).toFixed(1), (Math.random(100) *
-							14).toFixed(1), (Math.random(100) * 14).toFixed(1), (Math.random(100) * 14).toFixed(1), (Math.random(100) * 14).toFixed(1), (Math.random(100) * 14).toFixed(1), (Math.random(100) * 14).toFixed(1), (Math.random(100) * 14).toFixed(1), (
-							Math.random(100) * 14).toFixed(1), (Math.random(100) * 14).toFixed(1), (Math
-							.random(100) * 14).toFixed(1), (Math.random(100) * 14).toFixed(1)
+					that.phchart.series[0].data = [(Math.random(38) * 14).toFixed(1), (Math.random(38) *
+							14).toFixed(1), (Math.random(38) * 14).toFixed(1), (Math.random(38) * 14).toFixed(1), (Math.random(38) * 14).toFixed(1), (Math.random(38) * 14).toFixed(1), (Math.random(38) * 14).toFixed(1), (Math.random(38) * 14).toFixed(1), (
+							Math.random(38) * 14).toFixed(1), (Math.random(38) * 14).toFixed(1), (Math
+							.random(38) * 14).toFixed(1), (Math.random(38) * 14).toFixed(1)
 					];
 					//------------
 					// 	this.yanchart = this.inityanchart();
-					that.yanchart.series[0].data = [(Math.random(100) * 100).toFixed(0), (Math.random(100) *
-							100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100)
-						.toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(
-							0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (
-							Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0)
+					that.yanchart.series[0].data = [(Math.random(38) * 100).toFixed(0), (Math.random(38) *
+							100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100)
+						.toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(
+							0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (
+							Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0)
 					];
 					//------------
 					// 	this.guangaichart = this.initguangaichart();
-					that.guangaichart.series[0].data = [(Math.random(100) * 100).toFixed(0), (Math.random(
-						100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(
-						100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(
-						100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(
-						100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(
-						100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(
+					that.guangaichart.series[0].data = [(Math.random(38) * 100).toFixed(0), (Math.random(
+						100) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(
+						100) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(
+						100) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(
+						100) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(
+						100) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(
 						100) * 100).toFixed(0)];
 				}, refreshtime);
 			},
@@ -380,15 +380,15 @@
 					},
 					series: [{
 						name: "含量",
-						data: [(Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0)],
+						data: [(Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0)],
 						type: 'bar',
 						barWidth: '20px',
 						label: {
 							show: true,
-							formatter: '{c}%',
+							formatter: '{c}',
 							position: 'top',
 							color: 'rgba(255,228,59,1)',
 							fontSize: 12,
@@ -534,10 +534,10 @@
 					},
 					series: [{
 						name: "含量",
-						data: [(Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0)],
+						data: [(Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0)],
 						type: 'line',
 						lineStyle: {
 							normal: {
@@ -622,10 +622,10 @@
 					},
 					series: [{
 						name: "含量",
-						data: [(Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0)],
+						data: [(Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0)],
 						type: 'line',
 						lineStyle: {
 							normal: {
@@ -660,9 +660,9 @@
 				}
 			},
 			initligtechart: function() {
-				var value = [(Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(
-						100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100)
-					.toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0)
+				var value = [(Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(
+						100) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100)
+					.toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0)
 				];
 				return {
 					backgroundColor: '#000000',
@@ -798,7 +798,7 @@
 					},
 					series: [{
 						// name: "含量",
-						// data: [(Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0)],
+						// data: [(Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0)],
 						// type: 'line',
 						// itemStyle:{
 						// 	color:'#6648FF'
@@ -816,10 +816,10 @@
 						symbolSize: [20, 8],
 						symbolPosition: 'start',
 						symbolOffset: [0, -1],
-						data: [(Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0)],
+						data: [(Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0)],
 						z: 0,
 						zlevel: 8
 					}]
@@ -876,7 +876,7 @@
 					},
 					series: [{
 						// name: "含量",
-						// data: [(Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0)],
+						// data: [(Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0)],
 						// type: 'line',
 						// itemStyle:{
 						// 	color:'#ee6666'
@@ -894,10 +894,10 @@
 						symbolSize: [20, 8],
 						symbolPosition: 'start',
 						symbolOffset: [0, -1],
-						data: [(Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0)],
+						data: [(Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0)],
 						z: 0,
 						zlevel: 8,
 					}]
@@ -954,7 +954,7 @@
 					},
 					series: [{
 						// name: "含量",
-						// data: [(Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0)],
+						// data: [(Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0)],
 						// type: 'line',
 						// itemStyle:{
 						// 	color:'#488cf7'
@@ -972,10 +972,10 @@
 						symbolSize: [20, 8],
 						symbolPosition: 'start',
 						symbolOffset: [0, -1],
-						data: [(Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0)],
+						data: [(Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0)],
 						z: 0,
 						zlevel: 8,
 					}]
@@ -1032,10 +1032,10 @@
 					},
 					series: [{
 						name: "含量",
-						data: [(Math.random(100) * 14).toFixed(1), (Math.random(100) * 14).toFixed(1), (Math
-							.random(100) * 14).toFixed(1), (Math.random(100) * 14).toFixed(1), (Math
-							.random(100) * 14).toFixed(1), (Math.random(100) * 14).toFixed(1), (Math
-							.random(100) * 14).toFixed(1)],
+						data: [(Math.random(38) * 14).toFixed(1), (Math.random(38) * 14).toFixed(1), (Math
+							.random(38) * 14).toFixed(1), (Math.random(38) * 14).toFixed(1), (Math
+							.random(38) * 14).toFixed(1), (Math.random(38) * 14).toFixed(1), (Math
+							.random(38) * 14).toFixed(1)],
 						type: 'bar',
 						barWidth: '20px',
 						itemStyle: {
@@ -1126,10 +1126,10 @@
 					},
 					series: [{
 						name: "含量",
-						data: [(Math.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0), (Math.random(100) * 100).toFixed(0), (Math
-							.random(100) * 100).toFixed(0)],
+						data: [(Math.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0), (Math.random(38) * 100).toFixed(0), (Math
+							.random(38) * 100).toFixed(0)],
 						type: 'bar',
 						barWidth: '20px',
 						itemStyle: {
